@@ -1,12 +1,1716 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>jdfhgjkdfghkdjg</h1>
+    <header class="header-section">
+        <div class="container-fluid header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-12 header-left">
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker"></i>
+                                <span>73/A Landmark, Dhaka-5260 BANGLADESH</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span>+880 1712 34 56 78</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 header-right">
+                        <ul class="social-media">
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container-fluid pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 logo-col">
+                        <img src="images/logo.png" alt="" />
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="main-col">
+                            <div>
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="main-col-text">
+                                <span>73/A Landmark</span>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="main-col">
+                            <div>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="main-col-text">
+                                <span>Email Address</span>
+                                <p>root@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="main-col">
+                            <div>
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="main-col-text">
+                                <span>Mon - Sun 8.00 - 18.00</span>
+                                <p>Sunday Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="navbar-section">
+        <div style="position: absolute; z-index:70;" class="container-fluid">
+            <div class="bg-dark">
+                <div class="row">
+                    <div class="col-lg-9 col-md-10 p-0 d-flex justify-content-start">
+                        <ul class="navbar-menu">
+                            <li class="active navbar-menu-link"><a href="home.html">HOME</a></li>
+                            <li class="navbar-menu-link">
+                                <a href="">ABOUT</a>
+                            </li>
+                            <li class="navbar-menu-link">
+                                <a href="">SERVICES</a>
+                            </li>
+                            <li class="navbar-menu-link">
+                                <a href="">PROJECTS <i class="fas fa-caret-down"></i></a>
+                                <ul class="dropdown-m">
+                                    <li><a href="">Full width</a></li>
+                                    <li><a href="">3 columns</a></li>
+                                </ul>
+                            </li>
+                            <li class="navbar-menu-link">
+                                <a href="">BLOGS <i class="fas fa-caret-down"></i></a>
+                                <ul class="dropdown-m">
+                                    <li><a href="">No Sidebar</a></li>
+                                    <li><a href="">Left Sidebar</a></li>
+                                    <li><a href="">Right Sidebar</a></li>
+                                    <li><a href="">Single Page</a></li>
+                                    <li><a href="">Blank Page</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">TEAM</a>
+                            </li>
+                            <li>
+                                <a href="">PAGES <i class="fas fa-caret-down"></i></a>
+                                <ul class="dropdown-m">
+                                    <li><a href="">404 Page</a></li>
+                                    <li><a href="">Comming Soon</a></li>
+                                    <li><a href="">Faq Page</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="/contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-2 p-0">
+                        <ul class="purchase">
+                            <li>
+                                <a href="">PURCHASE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="responsive-menu-section">
+        <div class="container-fluid">
+            <div style="background:white;" class="row">
+                <div class="col-md-4 col-sm-4 col-4 pt-2 pb-2">
+                    <img class="w-50" src="images/logo.png" alt="">
+                </div>
+                <div style="background-color:#ffa700;" class="col-md-8 col-sm-8 col-8 pt-2 pb-2">
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-end">
+                            <div style="color:white;" class="menu-icon">MENU <i class="fas fa-bars"></i></div>
+                        </div>
+                        <div class="col-md-12 d-flex justify-content-start m-0 p-0 responsive-col">
+                            <ul class="responsive-navbar-menu m-0 p-0">
+                                <li>
+                                    <a href="home.html">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="">ABOUT</a>
+                                </li>
+                                <li>
+                                    <a href="">SERVICES</a>
+                                </li>
+                                <li>
+                                    <a href="">PROJECTS</a>
+                                </li>
+                                <li>
+                                    <a href="">BLOGS</a>
+                                </li>
+                                <li>
+                                    <a href="">TEAM</a>
+                                </li>
+                                <li>
+                                    <a href="">PAGES</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider-section">
+        <div class="container-fluid m-0 p-0">
+            <div class="row m-0 p-0">
+                <div class="col-lg-12 m-0 p-0">
+                    <div class="all-stage">
+                        <div class="prev-button">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="stages">
+                            <div class="stage">
+                                <img src="images/slider-1.jpg" alt="">
+                                <div class="slide-text active-text">
+                                    <h1> 1 Lorem ipsum dolor sit amet.<br> Lorem ipsum dolor</h1>
+                                    <p>Lorem Aperiam quisquam est perspiciatis eos veritatis<br> libero exercitationem
+                                        commodi, harum quaerat enim?</p>
+                                    <button class="slide-button">Buy Theme</button>
+                                </div>
+                            </div>
+                            <div class="stage">
+                                <img src="images/slider-2.jpg" alt="">
+                                <div class="slide-text">
+                                    <h1> 2 Lorem ipsum dolor sit amet.<br> Lorem ipsum dolor</h1>
+                                    <p>Lorem Aperiam quisquam est perspiciatis eos veritatis<br> libero exercitationem
+                                        commodi, harum quaerat enim?</p>
+                                    <button class="slide-button">Buy Theme</button>
+                                </div>
+                            </div>
+                            <div class="stage">
+                                <img src="images/slider-3.jpg" alt="">
+                                <div class="slide-text">
+                                    <h1> 3 Lorem ipsum dolor sit amet.<br> Lorem ipsum dolor</h1>
+                                    <p>Lorem Aperiam quisquam est perspiciatis eos veritatis<br> libero exercitationem
+                                        commodi, harum quaerat enim?</p>
+                                    <button class="slide-button">Buy Theme</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="next-button">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                        <div class="direction">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div style="background-color: #ffa700;" class="container-fluid pt-5 pb-5">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-space-between">
+                    <div class="col-lg-10 col-md-9 col-sm-8 col-12">
+                        <h1 class="purchase-text">providing best construction service since 1995 to now</h1>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-12 d-flex justify-content-end">
+                        <button class="purchase-btn w-100">Purchase</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid mt-5 mb-5">
+            <div class="container">
+                <div class="row">
+                    <div data-aos="fade-left" class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div>
+                            <img src="images/title.png" alt="">
+                            <div class="about-text">
+                                <h4>About<span> us</span></h4>
+                                <h3>Welcome to our construction services</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolor facere fuga
+                                    ipsa, nesciun t numquam at consequuntur quia nulla dolore similique tenetur
+                                    laudantium, voluptas! Fugit.</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-angle-double-right"></i> Quisquam vel, eveniet vitae repellat
+                                        fugiat, minima!
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-double-right"></i> Distinctio, labore eveniet quasi odit
+                                        accusantium.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-double-right"></i> Exercitationem, culpa in tenetur
+                                        repellat, reprehenderit.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-double-right"></i> Saepe aut sunt sit deserunt quia vitae
+                                        voluptas.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-double-right"></i> Quasi cumque, quae corrupti nobis.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-double-right"></i> Dignissimos assumenda libero atque
+                                        eius velit ratione?
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-double-right"></i> Officiis ducimus delectus ullam
+                                        deserunt hic?
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-double-right"></i> Quisquam vel, eveniet vitae repellat
+                                        fugiat, minima!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="col-lg-6 col-md-12 col-sm-12 col-12 slider-col m-0 p-0">
+                        <i class="fas fa-angle-left about-left-btn"></i>
+                        <i class="fas fa-angle-right about-right-btn"></i>
+                        <div class="about-sliders">
+                            <div class="about-slide about-img">
+                                <img src="images/slider-1.jpg" alt="">
+                            </div>
+                            <div class="about-slide">
+                                <img src="images/slider-2.jpg" alt="">
+                            </div>
+                            <div class="about-slide">
+                                <img src="images/slider-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="about-dots">
+                            <div class="about-dot active-about-dot"></div>
+                            <div class="about-dot"></div>
+                            <div class="about-dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="row mt-5 stuff-row">
+                    <div data-aos="fade-left"  class="col-lg-3 col-md-6 col-sm-12 col-12 mt-5 ">
+                        <div class="">
+                            <div class="about-stuff-img-div">
+                                <img class="about-stuff-img" src="images/about-1.jpg" alt="" />
+                                <a href="">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="about-stuff-text">
+                                <h5>
+                                    INNOVATION
+                                </h5>
+                                <p>
+                                    Provident eligendi reiciendis nobis aspernatur non officia iure alias quod maxime,
+                                    eum accusantium, similique iusto recusandae aperiam nemo repellat harum tempora,
+                                    assumenda!
+                                </p>
+                                <a href="">
+                                    <i class="fas fa-angle-double-right"></i> Read more...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-12 col-12 mt-5">
+                        <div>
+                            <div class="about-stuff-img-div">
+                                <img class="about-stuff-img" src="images/about-2.jpg" alt="" />
+                                <a href="">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="about-stuff-text">
+                                <h5>
+                                    Builders
+                                </h5>
+                                <p>
+                                    Provident eligendi reiciendis nobis aspernatur non officia iure alias quod maxime,
+                                    eum accusantium, similique iusto recusandae aperiam nemo repellat harum tempora,
+                                    assumenda!
+                                </p>
+                                <a href="">
+                                    <i class="fas fa-angle-double-right"></i> Read more...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-dawn" class="col-lg-3 col-md-6 col-sm-12 col-12 mt-5">
+                        <div>
+                            <div class="about-stuff-img-div">
+                                <img class="about-stuff-img" src="images/about-3.jpg" alt="" />
+                                <a href="">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="about-stuff-text">
+                                <h5>
+                                    Architechture
+                                </h5>
+                                <p>
+                                    Provident eligendi reiciendis nobis aspernatur non officia iure alias quod maxime,
+                                    eum accusantium, similique iusto recusandae aperiam nemo repellat harum tempora,
+                                    assumenda!
+                                </p>
+                                <a href="">
+                                    <i class="fas fa-angle-double-right"></i> Read more...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="col-lg-3 col-md-6 col-sm-12 col-12 mt-5">
+                        <div>
+                            <div class="about-stuff-img-div">
+                                <img class="about-stuff-img" src="images/about-4.jpg" alt="" />
+                                <a href="">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="about-stuff-text">
+                                <h5>
+                                    Construction
+                                </h5>
+                                <p>
+                                    Provident eligendi reiciendis nobis aspernatur non officia iure alias quod maxime,
+                                    eum accusantium, similique iusto recusandae aperiam nemo repellat harum tempora,
+                                    assumenda!
+                                </p>
+                                <a href="">
+                                    <i class="fas fa-angle-double-right"></i> Read more...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div style="background-color: #efefef;" class="container-fluid mt-5 pt-5 pb-5">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 choose-header">
+                        <img src="/images/title.png" alt="">
+                        <h4><span>WHY</span> CHOOSE US</h4>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div  data-aos="fade-dawn" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="choose-cart-text">
+                            <div>
+                                <span class="fas fa-landmark"></span>
+                            </div>
+                            <h3>Professional Approch</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem placeat temporibus
+                                amet laborum aliquid aut eaque veritatis
+                            </p>
+                        </div>
+                    </div>
+                    <div  data-aos="fade-dawn" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="choose-cart-text">
+                            <div>
+                                <span class="fas fa-clock"></span>
+                            </div>
+                            <h3>Quick and highly response</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem placeat temporibus
+                                amet laborum aliquid aut eaque veritatis
+                            </p>
+                        </div>
+                    </div>
+                    <div  data-aos="fade-dawn" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="choose-cart-text">
+                            <div>
+                                <span class="fas fa-smile"></span>
+                            </div>
+                            <h3>Satisfaction Guarantee</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem placeat temporibus
+                                amet laborum aliquid aut eaque veritatis
+                            </p>
+                        </div>
+                    </div>
+                    <div  data-aos="fade-dawn" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="choose-cart-text">
+                            <div>
+                                <span class="fab fa-angellist"></span>
+                            </div>
+                            <h3>High Quality professional Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem placeat temporibus
+                                amet laborum aliquid aut eaque veritatis
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-dawn" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="choose-cart-text">
+                            <div>
+                                <span class="fab fa-buromobelexperte"></span>
+                            </div>
+                            <h3>High Quality professional Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem placeat temporibus
+                                amet laborum aliquid aut eaque veritatis
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-dawn" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="choose-cart-text">
+                            <div>
+                                <span class="fab fa-buromobelexperte"></span>
+                            </div>
+                            <h3>High Quality professional Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem placeat temporibus
+                                amet laborum aliquid aut eaque veritatis
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-dawn" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="choose-cart-text">
+                            <div>
+                                <span class="fas fa-smile"></span>
+                            </div>
+                            <h3>High Quality professional Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem placeat temporibus
+                                amet laborum aliquid aut eaque veritatis
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-dawn" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="choose-cart-text">
+                            <div>
+                                <span class="fab fa-angellist"></span>
+                            </div>
+                            <h3>High Quality professional Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem placeat temporibus
+                                amet laborum aliquid aut eaque veritatis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid count-container">
+            <div>
+                <div class="container">
+                    <div class="row count-row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 count-col">
+                            <div class="count-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="count-text">
+                                <h3>500</h3>
+                                <p>project completed</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 count-col">
+                            <div class="count-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="count-text">
+                                <h3>850</h3>
+                                <p>Expart Worker</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 count-col">
+                            <div class="count-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="count-text">
+                                <h3>120</h3>
+                                <p>
+                                    Award Wining
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 count-col">
+                            <div class="count-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <div class="count-text">
+                                <h3>98</h3>
+                                <p>Working Experiences</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 services-header-col">
+                        <img src="images/title.png" alt="">
+                        <h4><span>OUR </span>SERVICES</h4>
+                    </div>
+                    <div data-aos="fade-right" class="col-lg-4 col-md-6 col-sm-12 col-12 mb-5 services-col">
+                        <div>
+                            <img src="images/services-1.jpg" alt="">
+                            <div class="services-text">
+                                <h3>Design and Build up</h3>
+                                <p>Consectetur adipisicing elit. Suscipit ducimus sequi tempore, officiis nesciunt
+                                    aliquam architecto vero iure alias cum dolores porro sint eaque, sapiente delectus.
+                                    Repellendus nostrum rerum odio earum qui magni nesciunt
+                                    quibusdam rem iusto. Debitis reiciendis, nulla eius architecto amet illo, doloremque
+                                    voluptas vel est eaque nostrum deleniti id sint quasi. Animi sint delectus.</p>
+                                <a href=""><i class="fas fa-angle-double-right"></i> READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="col-lg-4 col-md-6 col-sm-12 col-12 mb-5 services-col">
+                        <div>
+                            <img src="images/services-2.jpg" alt="">
+                            <div class="services-text">
+                                <h3>Design and Build up</h3>
+                                <p>Consectetur adipisicing elit. Suscipit ducimus sequi tempore, officiis nesciunt
+                                    aliquam architecto vero iure alias cum dolores porro sint eaque, sapiente delectus.
+                                    Repellendus nostrum rerum odio earum qui magni nesciunt
+                                    quibusdam rem iusto. Debitis reiciendis, nulla eius architecto amet illo, doloremque
+                                    voluptas vel est eaque nostrum deleniti id sint quasi. Animi sint delectus.</p>
+                                <a href=""><i class="fas fa-angle-double-right"></i> READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div   class="col-lg-12 col-md-12 col-sm-12 col-12  services-right-col">
+                            <div>
+                                <img src="images/recent-post-1.png" alt="">
+                            </div>
+                            <div class="services-text">
+                                <h3>
+                                    Design and build
+                                </h3>
+                                <p>
+                                    Aliquam, exercitationem reiciendis suscipit nostrum velit quia enim porro dolor.
+                                    Cum dolores eos ab non.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12  services-right-col">
+                            <div>
+                                <img src="images/recent-post-2.png" alt="">
+                            </div>
+                            <div class="services-text">
+                                <h3>
+                                    Design and build
+                                </h3>
+                                <p>
+                                    Aliquam, exercitationem reiciendis suscipit nostrum velit quia enim porro dolor.
+                                    Cum dolores eos ab non.
+                                </p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-dawn" class="col-lg-12 col-md-12 col-sm-12 col-12  services-right-col">
+                            <div>
+                                <img src="images/recent-post-1.png" alt="">
+                            </div>
+                            <div class="services-text">
+                                <h3>
+                                    Design and build
+                                </h3>
+                                <p>
+                                    Aliquam, exercitationem reiciendis suscipit nostrum velit quia enim porro dolor.
+                                    Cum dolores eos ab non.
+                                </p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-dawn" class="col-lg-12 col-md-12 col-sm-12 col-12 services-right-col">
+                            <div>
+                                <img src="images/recent-post-2.png" alt="">
+                            </div>
+                            <div class="services-text">
+                                <h3>
+                                    Design and build
+                                </h3>
+                                <p>
+                                    Aliquam, exercitationem reiciendis suscipit nostrum velit quia enim porro dolor.
+                                    Cum dolores eos ab non.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid pb-5" style="background-color: #efefef;">
+            <div class="container">
+                <div class="row exparts-header-row">
+                    <div class="col-lg-12 text-center">
+                        <img src="/images/title.png" alt="">
+                        <h4>Our <span>Exparts</span></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div data-aos="fade-right" class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
+                        <div style="background-color:white; padding:15px;">
+                            <div class="expart-image">
+                                <img src="images/worker-1.png" alt="">
+                                <div class="expart-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-facebook-f"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-twitter"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-instagram"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-pinterest"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="expart-col-text">
+                                <h5>MR. MAX</h5>
+                                <span>SUPERVISOR</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi eveniet
+                                    sapiente veritatis omnis veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
+                        <div style="background-color:white; padding:15px;">
+                            <div class="expart-image">
+                                <img src="images/worker-2.png" alt="">
+                                <div class="expart-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-facebook-f"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-twitter"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-instagram"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-pinterest"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="expart-col-text">
+                                <h5>MR. MAX</h5>
+                                <span>SUPERVISOR</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi eveniet
+                                    sapiente veritatis omnis veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
+                        <div style="background-color:white; padding:15px;">
+                            <div class="expart-image">
+                                <img src="images/worker-3.png" alt="">
+                                <div class="expart-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-facebook-f"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-twitter"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-instagram"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-pinterest"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="expart-col-text">
+                                <h5>MR. MAX</h5>
+                                <span>SUPERVISOR</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi eveniet
+                                    sapiente veritatis omnis veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
+                        <div style="background-color:white; padding:15px;">
+                            <div class="expart-image">
+                                <img src="images/worker-4.png" alt="">
+                                <div class="expart-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-facebook-f"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-twitter"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-instagram"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fab fa-pinterest"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="expart-col-text">
+                                <h5>MR. MAX</h5>
+                                <span>SUPERVISOR</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi eveniet
+                                    sapiente veritatis omnis veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid pt-5 pb-5">
+            <div class="container">
+                <div class="row feature-header-row">
+                    <div class="col-lg-12 text-center">
+                        <img src="/images/title.png" alt="">
+                        <h4>FEATURED <span>PROJECTS</span></h4>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="feature-direction-btns">
+                            <button class="activ" data-filter="all">All</button>
+                            <button data-filter="builder">Builder</button>
+                            <button data-filter="carpenter">Carpenter</button>
+                            <button data-filter="plumber">Plumber</button>
+                            <button data-filter="repairment">Repairment</button>
+                            <button data-filter="architechture">Architechture</button>
+                            <button data-filter="construction">Construction</button>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="row pt-4">
+                    <div data-filter="construction" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-1.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-1.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="construction" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-2.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-2.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="repairment" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-4.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-4.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="repairment" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-5.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-5.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="plumber" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-3.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-3.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="carpenter" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-5.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-5.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="carpenter" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-6.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-6.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="builder" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-2.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-2.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="builder" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-6.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-6.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="architechture" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-5.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-5.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="architechture" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-1.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-1.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-filter="architechture" class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 all">
+                        <div class="feature-col">
+                            <img class="" src="images/port-4.jpg" alt="">
+                            <div class="feature-col-text">
+                                <a href="">
+                                    <h5>Project Title
+                                        <div class="bottom-line"></div>
+                                    </h5>
+                                </a>
+                                <span>Builder</span>
+
+                            </div>
+                            <div class="feature-col-link">
+                                <a href="http://eco.iotmdcp.com/assets/image/projects/port-4.jpg">
+                                    <span class="fas fa-link"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div style="background-color: #ffa700; color:white;" class="container-fluid pt-5 pb-5 mt-5 mb-5">
+            <div class="container">
+                <div class="row motivate-row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <h3>How to startup?</h3>
+                        <p>
+                            Officiis recusandae vero cum ipsam officia exercitationem! Tempore consectetur blanditiis,
+                            facilis sequi delectus veritatis nulla.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <h3>How to work?</h3>
+                        <p>
+                            Iusto nihil itaque eligendi quas necessitatibus ea aperiam, corporis odit ut repudiandae
+                            dolorum, asperiores doloremque
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <h3>How to professional?</h3>
+                        <p>
+                            Consequuntur distinctio iusto illum reiciendis tenetur est laboriosam mollitia tempore!
+                            Corporis
+                            suscipit eveniet dolorum veritatis, ad minus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid mt-5 pt-5 mb-5 pb-5">
+            <div class="container ">
+                <div class="row clients-row-header text-center">
+                    <div class="col-lg-12">
+                        <img src="/images/title.png" alt="">
+                        <h4>Our Awesome <span>Clients</span></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="row client-brand-row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6  ">
+                                <img class="w-100" src="images/brand-1.png" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <img class="w-100" src="images/brand-2.png" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <img class="w-100" src="images/brand-3.png" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <img class="w-100" src="images/brand-4.png" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <img class="w-100" src="images/brand-5.png" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <img class="w-100" src="images/brand-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 client-slider-col">
+                        <div class="client-sliders border">
+                            <div class="client-slider-stages">
+                                <div class="client-slider-stage">
+                                    <div class="media">
+                                        <div class="media-nails">
+                                            <i class="fas fa-quote-left"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>Vel maiores quae nobis tenetur eveniet, nihil eum sit sint labore enim
+                                                accusantium adipisci blanditiis est dicta voluptates expedita numquam?
+                                                Tempore velit, suscipit a blanditiis atque, totam debitis mollitia
+                                                explicabo quia sed, nam esse earum numquam?</p>
+                                            <div class="post-writter-info">
+                                                <div class="post-writter-image">
+                                                    <img src="images/client-1.jpg" alt="">
+                                                </div>
+                                                <div class="post-writter-text">
+                                                    <h4>Alex Doe</h4>
+                                                    <span>Builder</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-slider-stage">
+                                    <div class="media">
+                                        <div class="media-nails">
+                                            <i class="fas fa-quote-left"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>Vel maiores quae nobis tenetur eveniet, nihil eum sit sint labore enim
+                                                accusantium adipisci blanditiis est dicta voluptates expedita numquam?
+                                                Tempore velit, suscipit a blanditiis atque, totam debitis mollitia
+                                                explicabo quia sed, nam esse earum numquam?</p>
+                                            <div class="post-writter-info">
+                                                <div class="post-writter-image">
+                                                    <img src="images/client-4.jpg" alt="">
+                                                </div>
+                                                <div class="post-writter-text">
+                                                    <h4>Alex Doe</h4>
+                                                    <span>Builder</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-slider-stage">
+                                    <div class="media">
+                                        <div class="media-nails">
+                                            <i class="fas fa-quote-left"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>Vel maiores quae nobis tenetur eveniet, nihil eum sit sint labore enim
+                                                accusantium adipisci blanditiis est dicta voluptates expedita numquam?
+                                                Tempore velit, suscipit a blanditiis atque, totam debitis mollitia
+                                                explicabo quia sed, nam esse earum numquam?</p>
+                                            <div class="post-writter-info">
+                                                <div class="post-writter-image">
+                                                    <img src="images/client-3.jpg" alt="">
+                                                </div>
+                                                <div class="post-writter-text">
+                                                    <h4>Alex Doe</h4>
+                                                    <span>Builder</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-slider-direction-btns">
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div style="background-color: #efefef;" class="container-fluid pt-5 pb-5 mb-5">
+            <div class="container pb-5">
+                <div class="row questions-row-header text-center">
+                    <div class="col-lg-12 pt-5 pb-5">
+                        <img src="/images/title.png" alt="">
+                        <h4>Frequently asked <span>questions</span></h4>
+                    </div>
+                </div>
+                <div class="row all-questions-row">
+                    <div  class="col-lg-6 col-md-6 ">
+                        <div data-aos-duration=".8s" data-aos="fade-right" style="background-color: white;">
+                            <div data-target="first" class="question">
+                                <div class="left-line"></div>
+                                <div class="question-text">
+                                    <h4>1. How to contact with providers on ECO?
+                                    </h4>
+                                    <span class="fas fa-minus question-btn"></span>
+                                </div>
+                            </div>
+                            <div data-target="first" class="answer-text">
+                                <p>
+                                    Consectetur adipisicing elit. Corporis, nostrum accusantium debitis. Nihil fugit
+                                    quis
+                                    ullam autem nam tempora perspiciatis assumenda repellat omnis perferendis soluta,
+                                    quae
+                                    pariatur reprehenderit id iusto saepe nobis corrupti dolor quisquam recusandae
+                                    voluptates. Alias labore dignissimos, deleniti temporibus odio, saepe tempore
+                                    consectetur repellat dolorem nisi eius!
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div data-aos-duration="2s" data-aos="fade-right" style="background-color: white;">
+                            <div data-target="second" class="question">
+                                <div class="left-line"></div>
+                                <div class="question-text">
+                                    <h4>5. How to contact with providers on ECO?
+                                    </h4>
+                                    <span class="fas fa-minus question-btn"></span>
+                                </div>
+                            </div>
+                            <div data-target="second" class="answer-text">
+                                <p>
+                                    Consectetur adipisicing elit. Corporis, nostrum accusantium debitis. Nihil fugit
+                                    quis
+                                    ullam autem nam tempora perspiciatis assumenda repellat omnis perferendis soluta,
+                                    quae
+                                    pariatur reprehenderit id iusto saepe nobis corrupti dolor quisquam recusandae
+                                    voluptates. Alias labore dignissimos, deleniti temporibus odio, saepe tempore
+                                    consectetur repellat dolorem nisi eius!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div data-aos-duration="3.6s" data-aos="fade-right" style="background-color: white;">
+                            <div data-target="third" class="question">
+                                <div class="left-line"></div>
+                                <div class="question-text">
+                                    <h4>2. How to contact with providers on ECO?
+                                    </h4>
+                                    <span class="fas fa-minus question-btn"></span>
+                                </div>
+                            </div>
+                            <div data-target="third" class="answer-text">
+                                <p>
+                                    Consectetur adipisicing elit. Corporis, nostrum accusantium debitis. Nihil fugit
+                                    quis
+                                    ullam autem nam tempora perspiciatis assumenda repellat omnis perferendis soluta,
+                                    quae
+                                    pariatur reprehenderit id iusto saepe nobis corrupti dolor quisquam recusandae
+                                    voluptates. Alias labore dignissimos, deleniti temporibus odio, saepe tempore
+                                    consectetur repellat dolorem nisi eius!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div data-aos-duration="5.2s" data-aos="fade-right" style="background-color: white;">
+                            <div data-target="fourth" class="question">
+                                <div class="left-line"></div>
+                                <div class="question-text">
+                                    <h4>6. How to contact with providers on ECO?
+                                    </h4>
+                                    <span class="fas fa-minus question-btn"></span>
+                                </div>
+                            </div>
+                            <div data-target="fourth" class="answer-text">
+                                <p>
+                                    Consectetur adipisicing elit. Corporis, nostrum accusantium debitis. Nihil fugit
+                                    quis
+                                    ullam autem nam tempora perspiciatis assumenda repellat omnis perferendis soluta,
+                                    quae
+                                    pariatur reprehenderit id iusto saepe nobis corrupti dolor quisquam recusandae
+                                    voluptates. Alias labore dignissimos, deleniti temporibus odio, saepe tempore
+                                    consectetur repellat dolorem nisi eius!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div data-aos-duration=".8s" data-aos="fade-left" style="background-color: white;">
+                            <div class="question">
+                                <div class="left-line"></div>
+                                <div class="question-text">
+                                    <h4>3. How to contact with providers on ECO?
+                                    </h4>
+                                    <span class="fas fa-minus question-btn"></span>
+                                </div>
+                            </div>
+                            <div class="answer-text">
+                                <p class="">
+                                    Consectetur adipisicing elit. Corporis, nostrum accusantium debitis. Nihil fugit
+                                    quis
+                                    ullam autem nam tempora perspiciatis assumenda repellat omnis perferendis soluta,
+                                    quae
+                                    pariatur reprehenderit id iusto saepe nobis corrupti dolor quisquam recusandae
+                                    voluptates. Alias labore dignissimos, deleniti temporibus odio, saepe tempore
+                                    consectetur repellat dolorem nisi eius!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div data-aos-duration="2s" data-aos="fade-left" style="background-color: white;">
+                            <div class="question">
+                                <div class="left-line"></div>
+                                <div class="question-text">
+                                    <h4>4. How to contact with providers on ECO?
+                                    </h4>
+                                    <span class="fas fa-minus question-btn"></span>
+                                </div>
+                            </div>
+                            <div class="answer-text">
+                                <p>
+                                    Consectetur adipisicing elit. Corporis, nostrum accusantium debitis. Nihil fugit
+                                    quis
+                                    ullam autem nam tempora perspiciatis assumenda repellat omnis perferendis soluta,
+                                    quae
+                                    pariatur reprehenderit id iusto saepe nobis corrupti dolor quisquam recusandae
+                                    voluptates. Alias labore dignissimos, deleniti temporibus odio, saepe tempore
+                                    consectetur repellat dolorem nisi eius!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div data-aos-duration="2.6s" data-aos="fade-left" style="background-color: white;">
+                            <div class="question">
+                                <div class="left-line"></div>
+                                <div class="question-text">
+                                    <h4>4. How to contact with providers on ECO?
+                                    </h4>
+                                    <span class="fas fa-minus question-btn"></span>
+                                </div>
+                            </div>
+                            <div class="answer-text">
+                                <p>
+                                    Consectetur adipisicing elit. Corporis, nostrum accusantium debitis. Nihil fugit
+                                    quis
+                                    ullam autem nam tempora perspiciatis assumenda repellat omnis perferendis soluta,
+                                    quae
+                                    pariatur reprehenderit id iusto saepe nobis corrupti dolor quisquam recusandae
+                                    voluptates. Alias labore dignissimos, deleniti temporibus odio, saepe tempore
+                                    consectetur repellat dolorem nisi eius!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div data-aos-duration="3.2s" data-aos="fade-left" style="background-color: white;">
+                            <div class="question">
+                                <div class="left-line"></div>
+                                <div class="question-text">
+                                    <h4>8. How to contact with providers on ECO?
+                                    </h4>
+                                    <span class="fas fa-minus question-btn"></span>
+                                </div>
+                            </div>
+                            <div class="answer-text">
+                                <p>
+                                    Consectetur adipisicing elit. Corporis, nostrum accusantium debitis. Nihil fugit
+                                    quis
+                                    ullam autem nam tempora perspiciatis assumenda repellat omnis perferendis soluta,
+                                    quae
+                                    pariatur reprehenderit id iusto saepe nobis corrupti dolor quisquam recusandae
+                                    voluptates. Alias labore dignissimos, deleniti temporibus odio, saepe tempore
+                                    consectetur repellat dolorem nisi eius!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-5 mb-3">
+                        <div class="blog-left-image">
+                            <div class="blog-left-content">
+                                <div class="blog-left-author-image">
+                                    <img src="images/author-1.png" alt="">
+                                </div>
+                                <div class="blog-left-text">
+                                    <button>plumber</button>
+                                    <h4>Powered online business</h4>
+                                    <ul>
+                                        <li><a href=""><i class="far fa-calendar-alt"></i>20 July, 2020</a></li>
+                                        <li><a href=""><i class="far fa-comments"></i><span>2</span>Comments</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="col-lg-12 mb-3">
+                                    <div class="second-blog">
+                                        <div class="second-blog-image">
+                                            <img src="images/about-1.jpg" alt="">
+                                        </div>
+                                        <div class="second-blog-text">
+                                            <h4>Powered online business</h4>
+                                            <p>Natus adipisci recusandae labore temporibus culpa velit! Voluptatem eos
+                                                officiis.</p>
+                                            <ul>
+                                                <li><a href=""><i class="far fa-calendar-alt"></i>20 July, 2020</a></li>
+                                                <li><a href=""><i class="far fa-comments"></i><span>2</span>Comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb-3">
+                                    <div class="second-blog">
+                                        <div class="second-blog-image">
+                                            <img src="images/about-1.jpg" alt="">
+                                        </div>
+                                        <div class="second-blog-text">
+                                            <h4>Powered online business</h4>
+                                            <p>Natus adipisci recusandae labore temporibus culpa velit! Voluptatem eos
+                                                officiis.</p>
+                                            <ul>
+                                                <li><a href=""><i class="far fa-calendar-alt"></i>20 July, 2020</a></li>
+                                                <li><a href=""><i class="far fa-comments"></i><span>2</span>Comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb-3">
+                                    <div class="second-blog">
+                                        <div class="second-blog-image">
+                                            <img src="images/about-1.jpg" alt="">
+                                        </div>
+                                        <div class="second-blog-text">
+                                            <h4>Powered online business</h4>
+                                            <p>Natus adipisci recusandae labore temporibus culpa velit! Voluptatem eos
+                                                officiis.</p>
+                                            <ul>
+                                                <li><a href=""><i class="far fa-calendar-alt"></i>20 July, 2020</a></li>
+                                                <li><a href=""><i class="far fa-comments"></i><span>2</span>Comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="third-blog">
+                                    <div><img src="images/blog-5.jpg" alt=""></div>
+                                    <div class="second-blog-text">
+                                        <h4>Powered online business</h4>
+                                        <p>Ullam ex, iure accusamus voluptate animi nemo culpa quos maxime recusandae
+                                            magnam architecto vitae expedita vel reprehenderit doloremque consectetur
+                                            consectetur cumque laboriosam, dolore ad itaque magni amet
+                                            Rerum dolore ad itaque magni amet odio nobis! Rerum ex velit!</p>
+                                        <ul>
+                                            <li><a href=""><i class="far fa-calendar-alt"></i>20 July, 2020</a></li>
+                                            <li><a href=""><i class="far fa-comments"></i><span>2</span>Comments</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div style="background-color: #1b1f20;" class="container-fluid pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <div class="footer-about-content footer-content">
+                            <h5>About ECO</h5>
+                            <a href="">
+                                <img src="images/logo.png" alt="">
+                            </a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim pariatur soluta esse
+                                laudantium impedit, ut totam expedita minus sunt, quaerat iure eum vitae. Laborum
+                                ducimus perspiciatis</p>
+                            <ul class="footer-social-media">
+                                <li class="facebook"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="instagram"><a href=""><i class="fab fa-instagram"></i></a></li>
+                                <li class="twitter"><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li class="whatsapp"><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                                <li class="pinterest"><a href=""><i class="fab fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <div class="footer-content">
+                            <h5>RECENT POSTS</h5>
+                            <div class="footer-posts-content mb-3">
+                                <div>
+                                    <a href="">
+                                        <img src="images/recent-post-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="post-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                    <span class="fas fa-calendar-alt"> August 22, 2020</span>
+                                </div>
+                            </div>
+                            <div class="footer-posts-content mb-3">
+                                <div>
+                                    <a href="">
+                                        <img src="images/recent-post-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="post-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                    <span class="fas fa-calendar-alt"> August 22, 2020</span>
+                                </div>
+                            </div>
+                            <div class="footer-posts-content">
+                                <div>
+                                    <a href="">
+                                        <img src="images/recent-post-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="post-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                    <span class="fas fa-calendar-alt"> August 22, 2020</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <div class="footer-content">
+                            <h5>Twitter Feed</h5>
+                            <div class="footer-twit-content mb-4 ">
+                                <p><a href=""><span><strong>@JhonAlex: </strong></span></a>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, molestias.</p>
+                            </div>
+                            <div class="footer-twit-content mb-4 ">
+                                <p><a href=""><span><strong>@JhonAlex: </strong></span></a>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, molestias.</p>
+                            </div>
+                            <div class="footer-twit-content  ">
+                                <p><a href=""><span><strong>@JhonAlex: </strong></span></a>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, molestias.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <div class="footer-content">
+                            <h5>Quick Links</h5>
+                            <div class="quick-links">
+                                <ul class="quick-link">
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            HOME
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            SERVICES
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            PROJECTS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            TEAMS
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="quick-link">
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            ABOUT
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            CONTACT
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            BLOG
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-angle-double-right"></i>
+                                            FAQ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <form class="subscribe-form" action="">
+                                <input class="subscribe-input" type="text" placeholder="Root@example.com">
+                                <button class="subscribe-btn" type="button"><i class="fas fa-rocket"></i> subscribe
+                                    now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #252829;" class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 pt-4">
+                    <p class="copywritter">© 2020, All right reserved, Developed by <span>PrantoPlanet</span> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
+
 </html>
