@@ -541,7 +541,6 @@ ul li.instagram {
 }
 
 .stuff-row div {
-  box-shadow: 0 3px 7px 3px rgba(0, 0, 0, 0.175) !important;
   position: relative;
 }
 
@@ -593,6 +592,8 @@ ul li.instagram {
 .about-stuff-text {
   padding: 10px;
   background-color: #fff;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.175) !important;
+
 }
 
 .about-stuff-text h5 {
