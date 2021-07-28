@@ -541,7 +541,7 @@ ul li.instagram {
 }
 
 .stuff-row div {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 3px 7px 3px rgba(0, 0, 0, 0.175) !important;
   position: relative;
 }
 
